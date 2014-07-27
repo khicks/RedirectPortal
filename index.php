@@ -17,8 +17,6 @@ if ($require_https && (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on'))
 if (isset($_POST['password'])) {
     if ($_POST['password'] === $password) {
         $success = true;
-        //header("Location:".$redirect);
-        //die();
     }
     elseif (strlen($_POST['password']) == 0) {
         $alert = "Password cannot be empty.";
