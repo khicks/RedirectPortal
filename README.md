@@ -1,4 +1,4 @@
 RedirectPortal
 ==============
 
-A simple password-protected redirect web portal
+A simple, powerful, lightweight, FLAT password-protected web redirect portal
